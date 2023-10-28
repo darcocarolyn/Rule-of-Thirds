@@ -1,0 +1,298 @@
+@font-face {
+    font-family: 'Thames-Serial';
+    src: url("./Thames-Serial\ Regular.ttf") 
+    /* Add more file formats if necessary */
+  }
+body {
+    height: 100%;
+    background: linear-gradient(0deg, #e59524a1, #fd1d1da5, #833AB4) fixed no-repeat;
+    margin: 0; /* Remove default margin */
+  }
+h1{
+    text-align: center;
+    color: #fff;
+    font-family: 'Thames-Serial';
+    font-weight: normal;
+    font-size: 45px;
+  }
+h3{
+    font-weight: normal
+
+}
+h2{
+  font-weight: normal;
+}
+p{
+    text-align: center;
+    color: #fff;
+    font-family: 'Thames-Serial';
+    font-weight: normal
+}
+a:hover {
+  color: #fcb0458d;
+}
+
+  .header {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Center items vertically within .header */
+    justify-content: space-between; /* Add space between logo and nav */
+    padding: 20px;
+  }
+
+  .header h2 {
+    color: #fff;
+    font-size: 18px;
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Center items vertically within h2 */
+    font-family: 'Thames-Serial';
+    font-weight: normal
+  }
+
+  .header img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px; /* Add some space between logo and text */
+  }
+
+  nav {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    justify-content: flex-end; /* Align items to the right */
+    font-family: 'Thames-Serial',
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox to evenly space items */
+    gap: 30px; /* Adjust the space between items as needed */
+}
+
+nav li {
+    /* Remove margin-right and width properties */
+    height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* change grid-template-columns */
+    grid-template-rows: auto;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    padding: 10px;
+    grid-gap: 90px;
+    margin-left: 10%;
+    font-size: 20px;
+  }
+
+  #about-img{
+    width: 65% ;
+    height: auto;
+    opacity: 0.9;
+    border-radius: 15px;
+    box-shadow: 10px 10px 35px rgba(0,0,0,0.6);
+  }
+  .artist-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    grid-gap: 10px;
+    font-size: 20px;
+  }
+  .artist {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .artist:last-child {
+    grid-column: span 2;
+  }
+#artist-name{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Thames-Serial';
+    font-weight: normal
+}
+#artistImage{
+border-radius: 10px;
+}
+#bauText{
+  width: 53%;
+  margin-left: 24%;
+}
+.Instagram{
+    font-family: 'Thames-Serial';
+    text-align: center;
+    padding-top: 25px;
+    color: #fff;
+    font-size: 25px;
+}
+#instaLogo{
+    width: 20px
+}
+#insta-link{
+    text-decoration: none; 
+    color: white; 
+}
+#insta-link:hover {
+  color: #833AB4;
+}
+#rsvpImg{
+    width: 400px; 
+    height: 600px;
+    margin-left: 25%;
+    opacity: 0.9;
+    border-radius: 15px;
+    box-shadow: 10px 10px 35px rgba(0,0,0,0.6);
+
+}
+.rsvp-content{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* change grid-template-columns */
+  grid-template-rows: auto;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  padding: 10px;
+  grid-gap: 10px;
+  font-size: 20px;
+}
+.rsvp-form-container {
+    max-width: 400px;
+    padding: 20px;
+    font-family: 'Thames-Serial';
+    color: #fff;
+    margin-right: 25%;
+    font-size: 25px;
+    font-weight: normal;
+
+}
+.contact-form-container {
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Thames-Serial';
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+
+}
+.form-group {
+    margin-bottom: 20px;
+    padding: 1px;
+}
+
+label {
+    font-weight: normal;
+}
+label textarea{
+  vertical-align: middle;
+}
+button {
+    background-color: #FF7519;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Thames-Serial';
+    font-weight: normal;
+}
+.sponsorship{
+    text-align: center;
+    font-family: 'Thames-Serial';
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* change grid-template-columns */
+    grid-template-rows: auto;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px;
+    grid-gap: 90px;
+    font-size: 17px;
+    margin-top: 5%;
+}
+.sponsorship h2{
+  font-size: 35px;
+}
+#sponsor-text{
+  width: 80%;
+  margin-left: 10%;
+  font-size: 26px;
+}
+#tiersText{
+  margin-bottom: 50%;
+  font-size: 23px;
+
+}
+#sponsor-image{
+  margin-bottom: 60%;
+}
+.image-container{
+    width: 925px;
+    height: 475px;     
+    border: 5px solid black;
+    border-radius: .5rem;
+    margin-left: 20%;
+    margin-top: 3%;
+    box-shadow: 10px 10px 35px rgba(0,0,0,0.6);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  }
+  
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    max-width: 100%  
+}
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }

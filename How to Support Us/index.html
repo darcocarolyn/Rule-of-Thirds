@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rule of Thirds</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/index.js"></script>
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+emailjs.init("arZzJCsLVDnmTV5Mi");
+})();
+</script>  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+  <link rel="manifest" href="../site.webmanifest">
+</head>
+<body>
+  <div class="header">
+    <h2><img src="../images/Untitled (3).png" alt="logo" /> Rule of Thirds</h2>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../Artists/index.html">Artists</a></li>
+        <li><a href="../Images&Videos/index.html">Images/Videos</a></li>
+        <li><a href="../RSPV/index.html">Purchase Tickets</a></li>
+        <li><a href="../How to Support Us/index.html">How to Support Us</a></li>
+      </ul>
+    </nav>
+  </div>
+  <h1>Support Us</h1>
+  <p id="sponsor-text">The Rule of Thirds Film Premiere Event will take place on
+    November 12th, 2023, at Studio Max. For us to establish
+    marketing materials and social media posts to include all our
+    sponsors, the deadlines will be in advance of the event and
+    will depend on the sponsorship tier that is chosen.</p>
+  <div class="sponsorship">
+    <div id="tiersText">
+      <h2>Sponsorship Tiers</h2>
+  <p>
+  <br><br>
+  Level One Sponsorship:
+  <br><br>
+  The deadline for sponsors who chose to contribute on the
+  level one tier will be October 9th, 2023. This allows time for
+  us to add business names to the credits as well as flyers.
+  <br><br>
+  Level Two Sponsorship:
+  <br><br>
+  The deadline for sponsors who chose to contribute on the
+  level two tier will be October 13th, 2023. This allows us time
+  to add logos to flyers.
+  <br><br>
+  Level Three Sponsorship:
+  <br><br>
+  The deadline for sponsors who chose to contribute to the
+  level three tier will be October 27th, 2023.
+</p>
+<div class="contact-form-container">
+  <h3>Contact Us for Inquiries</h3>
+<form onsubmit="sendEmail(); reset(); return false;">
+  <div class="form-group">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+  </div>
+  <div class="form-group">
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+  </div>
+  <div class="form-group">
+    <label>Message: <textarea id="message" rows="6" cols="25" value=""></textarea></label>
+      </div>
+  <button type="submit">Submit</button>
+</form>
+</div>
+  </div>
+  <div>
+  <img id="sponsor-image" src="../images/Screenshot 2023-09-25 195733.png"></img>
+</div>
+</div>
+</body>
+</html>
